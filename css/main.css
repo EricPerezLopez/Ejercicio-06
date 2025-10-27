@@ -42,8 +42,10 @@ grid-auto-flow: row;
 
 }
 .item-4{
+  align-self: self-end;
 grid-column: 3;
 grid-row: 2;
+height: 75%;
 }
 .item-5{
 grid-column: 1 /4;
