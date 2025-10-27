@@ -14,12 +14,17 @@ body {
 .grid-item {
 
   background-color: lightsalmon;
-  padding: 1rem;
+  
+  width: auto;
+  height: auto;
+  padding: 2.5px;
+
   /* display: grid; */
  /* grid-template-columns: auto auto auto;
   margin: 1rem;
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto); */
+  
 }
 .item-1{
 grid-column: 1 /4;
@@ -56,9 +61,9 @@ grid-column: 1 /4;
 display: grid;
 grid-auto-flow: row;
 
-grid-template-columns: auto auto auto;
-grid-gap: 0.5rem;
-
+grid-template-columns: 1fr 2fr 1fr;
+grid-gap: 2.5px;
+grid-auto-rows: minmax(60%, auto)
 
 }
 .grid-container-2{
